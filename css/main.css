@@ -1,0 +1,21 @@
+body {
+	position: relative;
+	width: 500px;
+}
+
+#container {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	border: 1px solid black;
+}
+
+.gridSquare {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	/*float: left;*/
+	display: inline-block;
+	/*clear: right;*/
+	outline: 1px solid black;
+}
